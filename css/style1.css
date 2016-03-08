@@ -1,0 +1,38 @@
+
+.blur img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    -webkit-transition: all .5s ease;
+     -moz-transition: all .5s ease;
+       -o-transition: all .5s ease;
+      -ms-transition: all .5s ease;
+          transition: all .5s ease;
+  -webkit-transform: scale(1.5, 1.5);
+  -moz-transform: scale(1.5, 1.5);
+  -o-transform: scale(1.5, 1.5);
+  transform: scale(1.5, 1.5);
+}
+.blur img:hover {
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -0-filter: blur(0px);
+  -ms-filter: blur(0px);
+  filter: blur(0px);
+}
+.blur a:hover{
+    cursor: url(https://dl.dropboxusercontent.com/u/147644213/vojonaloy/images/cursor.png), auto;
+}
+
+.blur a:hover img{
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
+

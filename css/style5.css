@@ -1,0 +1,46 @@
+.contrast img {
+  -webkit-filter: contrast(160%);;
+  -moz-filter: contrast(160%);;
+  -o-filter: contrast(160%);;
+  -ms-filter: contrast(160%);;
+  filter: contrast(160%);;
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.contrast a:hover img{
+  -webkit-filter: contrast(100%);
+  -moz-filter: contrast(100%);
+  -o-filter: contrast(100%);
+  -ms-filter: contrast(100%);
+  filter: contrast(100%);
+}
+
+.contrast img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+        -webkit-transition: all 1s ease;
+          transition: all 1s ease;
+    -webkit-transform: scale(1.5, 1.5);
+    -moz-transform: scale(1.5, 1.5);
+    -o-transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5);
+}
+.contrast a:hover{
+    cursor: url(https://dl.dropboxusercontent.com/u/147644213/vojonaloy/images/cursor.png), auto;
+}
+
+.contrast a:hover img{
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}

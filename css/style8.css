@@ -1,0 +1,46 @@
+.huerotate img {
+  -webkit-filter: hue-rotate(180deg);
+  -moz-filter: hue-rotate(180deg);
+  -o-filter: hue-rotate(180deg);
+  -ms-filter: hue-rotate(180deg);
+  filter: hue-rotate(180deg);
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.huerotate a:hover img{
+  -webkit-filter: hue-rotate(0deg);
+  -moz-filter: hue-rotate(0deg);
+  -o-filter: hue-rotate(0deg);
+  -ms-filter: hue-rotate(0deg);
+  filter: hue-rotate(0deg);
+}
+
+.huerotate img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+        -webkit-transition: all 1s ease;
+          transition: all 1s ease;
+    -webkit-transform: scale(1.5, 1.5);
+    -moz-transform: scale(1.5, 1.5);
+    -o-transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5);
+}
+.huerotate a:hover{
+    cursor: url(https://dl.dropboxusercontent.com/u/147644213/vojonaloy/images/cursor.png), auto;
+}
+
+.huerotate a:hover img{
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}

@@ -1,0 +1,46 @@
+.invert img {
+  -webkit-filter: invert(65%);
+  -moz-filter: invert(65%);
+  -o-filter: invert(65%);
+  -ms-filter: invert(65%);
+  filter: invert(65%);
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.invert a:hover img{
+  -webkit-filter: invert(100%);
+  -moz-filter: invert(100%);
+  -o-filter: invert(100%);
+  -ms-filter: invert(100%);
+  filter: invert(100%);
+}
+
+.invert img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+        -webkit-transition: all 1s ease;
+          transition: all 1s ease;
+    -webkit-transform: scale(1.5, 1.5);
+    -moz-transform: scale(1.5, 1.5);
+    -o-transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5);
+}
+.invert a:hover{
+    cursor: url(https://dl.dropboxusercontent.com/u/147644213/vojonaloy/images/cursor.png), auto;
+}
+
+.invert a:hover img{
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
